@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="air_kaiguan">&#xe607;</string>
+    <string name="air_zhileng">&#xe608;</string>
+    <string name="air_zhinuan">&#xe609;</string>
+    <string name="air_lianjie">&#xe60a;</string>
+    <string name="air_xianshi">&#xe60b;</string>
+    <string name="air_qiangjin">&#xe60c;</string>
+    <string name="air_songfeng">&#xe60d;</string>
+    <string name="air_wangguan">&#xe60e;</string>
+    <string name="air_zhinengdinuan">&#xe60f;</string>
+    <string name="air_baoxiu">&#xe610;</string>
+    <string name="air_chushi">&#xe611;</string>
+    <string name="air_banben">&#xe612;</string>
+    <string name="air_zidong">&#xe613;</string>
+    <string name="air_dinuan">&#xe614;</string>
+    <string name="air_fanhui">&#xe615;</string>
+    <string name="air_jingyin">&#xe616;</string>
+    <string name="air_fengsu">&#xe617;</string>
+    <string name="air_fengsu1">&#xe618;</string>
+    <string name="air_fengsu2">&#xe619;</string>
+    <string name="air_fengsu3">&#xe61a;</string>
+    <string name="air_fengsu4">&#xe61b;</string>
+    <string name="air_fengsu5">&#xe61c;</string>
+    <string name="air_fengsu6">&#xe61d;</string>
+    <string name="air_fengsu7">&#xe61e;</string>
+    <string name="air_fengsu8">&#xe61f;</string>
+    
+</resources>

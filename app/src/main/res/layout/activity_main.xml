@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <com.uxdpen.library.iconfont.IconImageView
+        android:id="@+id/iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:text="@string/air_kaiguan"
+        app:textColor="@color/colorAccent"
+        app:textSize="25sp" />
+
+    <com.uxdpen.library.iconfont.IconButton
+        android:id="@+id/b"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/iv"
+        android:gravity="center"
+        android:text="Button &#xe608;"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <com.uxdpen.library.iconfont.IconTextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/b"
+        android:text="@string/air_chushi"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <com.uxdpen.library.iconfont.IconAutoCompleteTextView
+        android:id="@+id/actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv"
+        android:gravity="left"
+        android:text="@string/air_dinuan"
+        android:textColor="#0f0"
+        android:textSize="20sp"/>
+    <com.uxdpen.library.iconfont.IconCheckBox
+        android:id="@+id/cb"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/actv"
+        android:gravity="left"
+        android:text="@string/air_baoxiu"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"/>
+    <com.uxdpen.library.iconfont.IconRadioButton
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/air_kaiguan"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"/>
+
+    <com.uxdpen.library.iconfont.IconSwitch
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb"
+        android:gravity="center"
+        android:text="@string/air_banben"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"/>
+
+    <com.uxdpen.library.iconfont.IconToggleButton
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_below="@+id/s"
+        android:text="@string/air_zhileng"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"/>
+
+    <com.uxdpen.library.iconfont.IconEditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tb"
+        android:text="@string/air_zhileng"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>
+
